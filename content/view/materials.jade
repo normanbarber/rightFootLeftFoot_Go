@@ -1,0 +1,11 @@
+script#materialDetailDir(type='text/ng-template')
+        div(data-ng-repeat="material in data")
+            div(class="details")
+                div(class="gauge")
+                div(class="info")
+                    div
+                        span(id="mat-on-hand") #{__('Current On Hand')}
+                        span(class="pull-right", id="mat-on-hand-v") {{material.onHand | number:2}}
+                    div
+                        span(id="uom") #{__('example2')}:
+                        span(class="pull-right", id="uom-v") {{material.uom}}

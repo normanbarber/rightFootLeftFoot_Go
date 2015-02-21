@@ -1,0 +1,8 @@
+div(id='detail', data-ng-show='detail !== undefined')
+	div
+		h3(class="pull-left") #{__('example1')}
+		div(class="pull-right")
+			ul(class="btn-txt-group")
+				li <a href="" ng-class="{'disabled': autoPlannable.length == 0}"><span class="fa fa-check"></span> #{__("example5")} </a>
+				li <a href="#" data-ng-class="{disabled: !hasPlannedData}"><span class="fa fa-external-link"></span> #{__("notused")} </a>
+
