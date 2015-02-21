@@ -4,7 +4,7 @@ This is a variation on a small utility program called CommandL10n. Recursively r
 I used GoLang for this version. I want to re-write this simple utility in a few different languages to help me gauge my interest in learning more about each of them.
 
 ### example of returned array of unused localization string keys (  returns the unused localization keys only )
-```json
+```javascript
 ['started']
 ['exported']
 ['starting']
