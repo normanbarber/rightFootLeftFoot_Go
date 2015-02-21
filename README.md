@@ -5,13 +5,13 @@ I used GoLang for this version. I want to re-write this simple utility in a few 
 
 #### example of returned array of unused localization string keys (  returns the unused localization keys only )
 ```javascript
-['started']
-['exported']
-['starting']
-['demand']
-['delivered']
-['planned']
-['scheduled']
+'started'
+'exported'
+'starting'
+'demand'
+'delivered'
+'planned'
+'scheduled'
 ```
 
 #### Running from the command line
