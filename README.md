@@ -16,11 +16,11 @@ I used GoLang for this version. I want to re-write this simple utility in a few 
 
 #### Running from the command line
 ```javascript
-	> .\getunusedL10n -localepath="path/to/your/en.json" -viewpath="path/to/your/view/file"
+	> .\getunusedL10n -localefile="path/to/your/en.json" -viewfolder="path/to/your/view/file"
 ```
 
 ##### Options:
 ```javascript
-	-v, --viewfolder     [string] - path to your view file
-	-l, --localefile     [string] - path and file name to locale file you want to read
+	-viewfolder     [string] - path to your view file
+	-localefile     [string] - path and file name to locale file you want to read
 ```
